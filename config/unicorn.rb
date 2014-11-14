@@ -1,8 +1,12 @@
 # -*- coding: utf-8 -*-
 
 # unicornのプロセスがリスンするアドレスとポートを指定
-listen "127.0.0.1:3000"
+#listen "127.0.0.1:3000"
+app_path = '/var/www/awesome-events'
+app_shared_path = "#{app_path}/shared"
+working_directory "#{app_path}/current/"
 
+listen "#{app_shared_path}/tmp/sockets/unicorn.sock"
 # pid fileの位置を指定する
 pid "tmp/pids/unicorn.pid"
 
