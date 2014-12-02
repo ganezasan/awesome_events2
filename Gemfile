@@ -24,14 +24,14 @@ group :development do
   gem 'spring'
 end
 
-group :development, :test do
-  gem 'rspec-rails', '~> 3.0.0.beta', github: 'rspec/rspec-rails'
-  gem 'rspec-core', '~> 3.0.0.beta', github: 'rspec/rspec-core'
-  gem 'rspec-expectations', '~> 3.0.0.beta', github: 'rspec/rspec-expectations'
-  gem 'rspec-mocks', '~> 3.0.0.beta', github: 'rspec/rspec-mocks'
-  gem 'rspec-support', '~> 3.0.0.beta', github: 'rspec/rspec-support'
-  gem 'factory_girl_rails', '~> 4.4.1'
-end
+#group :development, :test do
+#  gem 'rspec-rails', '~> 3.0.0.beta', github: 'rspec/rspec-rails'
+#  gem 'rspec-core', '~> 3.0.0.beta', github: 'rspec/rspec-core'
+#  gem 'rspec-expectations', '~> 3.0.0.beta', github: 'rspec/rspec-expectations'
+#  gem 'rspec-mocks', '~> 3.0.0.beta', github: 'rspec/rspec-mocks'
+#  gem 'rspec-support', '~> 3.0.0.beta', github: 'rspec/rspec-support'
+#  gem 'factory_girl_rails', '~> 4.4.1'
+#end
 
 group :test do
   gem 'shoulda-matchers', '~> 2.6.0'
